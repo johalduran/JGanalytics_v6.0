@@ -1,0 +1,74 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.johnduran.jganalytics.AyudaFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/logo_dan"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="RESUMEN DE INDICADORES: VENTAS presenta el resumen diario y el panorama mensual frente a la meta
+propuesta. En NIVEL DE SERVICIO se presenta el comportamiento del cumplimiento a los pedidos recibidos frente a lo
+entregado, por agencia y dentro de cada agencia por canal. En INVENTARIO se muestra cómo se encuentra cada una de las agencias y, en estas, cada una de las
+familias de producto frente al inventario óptimo definido por la organización. "
+                android:textSize="20dp"
+                android:textColor="@color/gray"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:layout_height="wrap_content"
+                android:text="GRÁFICAS DE INDICADORES: se aprecia el comportamiento histórico del mes de las ventas y el nivel
+de servicio de una manera mas amigable para el usuario."
+                android:textSize="20dp"
+                android:textColor="@color/gray"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
